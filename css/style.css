@@ -3,13 +3,45 @@
     margin: 0;
     padding:0;
 }
+body{
+    background-color: #F6F8F9;
+    font-family: arial;
+}
 
+#site_header{
+    background-color: white;
+}
 .img-logo{
     padding: 1rem 0 1rem 1.5rem;
 }
 .title{
-    font-family: arial;
     font-size: 2rem;
     font-weight: bold;    
     vertical-align: 2rem;
+}
+
+#site_content{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem 0 0.7rem 2.5rem;
+    border-radius: 5px 5px 1px 1px;
+}
+
+button {
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 5px;
+}
+.button-task{
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+    color: white;
+}
+.button-section{
+    background-color: white;
+    border: 1px solid #CCD2D5;
+    color: #CCD2D5;
 }
