@@ -67,6 +67,10 @@ button {
     font-size: 1.2rem;
 }
 
+dt {
+    margin-top: 15px;
+}
+
 .task-description {
     margin-left: 0.3rem;
     line-height: 250%;
@@ -78,7 +82,7 @@ button {
     border: 1px solid #64C0A9;
     border-radius: 100%;
     padding: 0.1rem 0.2rem 0.1rem 0.2rem;
-    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .cross {
@@ -87,7 +91,7 @@ button {
     border: 1px solid #EC5B52;
     border-radius: 100%;
     padding: 0.1rem 0.2rem 0.1rem 0.2rem;
-    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .tag {
